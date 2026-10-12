@@ -1,0 +1,16 @@
+{
+  "name": "Teamwork",
+  "group": "combined",
+  "grid": [
+    "####....#2....",
+    "#S##....a.....",
+    "#1##aaFF######",
+    "####..FF###G##",
+    "......########"
+  ],
+  "bridges": {"a": "closed"},
+  "switches": {
+    "1": {"type": "split", "targets": [[0, 8], [1, 2]]},
+    "2": {"type": "soft", "effects": {"a": "open"}}
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Archipelago",
+  "group": "combined",
+  "grid": [
+    "####...#######....3#",
+    "#S##...##F##2#....b.",
+    "#1##aa###F####cc####",
+    "####...##F####..#G##",
+    ".......#######..####"
+  ],
+  "bridges": {"a": "closed", "b": "closed", "c": "closed"},
+  "switches": {
+    "1": {"type": "soft", "effects": {"a": "toggle"}},
+    "2": {"type": "split", "targets": [[0, 19], [4, 7]]},
+    "3": {"type": "soft", "effects": {"b": "toggle", "c": "toggle"}}
+  }
+}

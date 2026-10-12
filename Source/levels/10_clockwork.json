@@ -1,0 +1,16 @@
+{
+  "name": "Clockwork",
+  "group": "switches",
+  "grid": [
+    "####...####...####...####",
+    "#S##aa##2##bb####cc###G##",
+    "#1##...####...##3#...####",
+    "####...####...####...####"
+  ],
+  "bridges": {"a": "closed", "b": "closed", "c": "open"},
+  "switches": {
+    "1": {"type": "soft", "effects": {"a": "toggle", "c": "toggle"}},
+    "2": {"type": "heavy", "effects": {"b": "open"}},
+    "3": {"type": "soft", "effects": {"c": "toggle", "a": "toggle"}}
+  }
+}

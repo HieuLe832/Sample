@@ -1,0 +1,11 @@
+{
+  "name": "Heavy Duty",
+  "group": "switches",
+  "grid": [
+    "#####...####",
+    "#S#1#aa#G###",
+    "#####...####"
+  ],
+  "bridges": {"a": "closed"},
+  "switches": {"1": {"type": "heavy", "effects": {"a": "toggle"}}}
+}

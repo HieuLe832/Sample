@@ -1,0 +1,14 @@
+{
+  "name": "Two Bridges",
+  "group": "switches",
+  "grid": [
+    "####...####...####",
+    "#S##aa##2##bb###G#",
+    "#1##...####...####"
+  ],
+  "bridges": {"a": "closed", "b": "open"},
+  "switches": {
+    "1": {"type": "soft", "effects": {"a": "toggle", "b": "toggle"}},
+    "2": {"type": "heavy", "effects": {"b": "open"}}
+  }
+}

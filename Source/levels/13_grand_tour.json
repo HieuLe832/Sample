@@ -1,0 +1,17 @@
+{
+  "name": "Grand Tour",
+  "group": "combined",
+  "grid": [
+    "###FF####...####....3#",
+    "#S#FF#1##aa#2###....b.",
+    "###FF####...####...###",
+    "...................#G#",
+    "...................###"
+  ],
+  "bridges": {"a": "closed", "b": "closed"},
+  "switches": {
+    "1": {"type": "heavy", "effects": {"a": "open"}},
+    "2": {"type": "split", "targets": [[0, 21], [4, 19]]},
+    "3": {"type": "soft", "effects": {"b": "toggle"}}
+  }
+}
