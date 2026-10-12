@@ -1,0 +1,2 @@
+pygame-ce>=2.5      # GUI (imports as "pygame")
+matplotlib>=3.8     # only for the charts in experiments/run_experiments.py
